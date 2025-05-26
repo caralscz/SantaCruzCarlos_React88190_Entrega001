@@ -1,0 +1,15 @@
+/* ItemListContainer.css */
+.titulo-principal {
+  background-color: lightblue;
+  color: gray;
+}
+
+.subtitulo-medio {
+  background-color: blue;
+  color: white;
+}
+
+.subtitulo-inferior {
+  background-color: lightgray;
+  color: black;
+}

@@ -1,19 +1,41 @@
-import "../css/NavBar.css"
+
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
 import CartWidget from "./CartWidget"
+import Ingresar from './Ingresar';
 
 const NavBar = () => {
     return (
-        <nav className='nav-container'>
-          <a className='nav-link' href="">Coder Shop</a>
-          <a className='nav-link' href="">Nuevos</a>
-          <a className='nav-link' href="">Ofertas</a>
-          <a className='nav-link' href="">Mas vendidos</a>
-
-          <CartWidget />
-
-        </nav>
-
-    )
+        <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="#home">Com88190-shop </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#">Inicio</Nav.Link>
+            <NavDropdown title="Productos" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Nuevos</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.2">Usados</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.3">Ofertas</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">Mas vendidos</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="#">Contactenos</Nav.Link>
+            <Nav.Link href="#">Nosotros</Nav.Link>
+            <CartWidget />
+         </Nav>
+        <Ingresar />  
+        </Navbar.Collapse>
+    
+       
+      </Container>
+    </Navbar>
+  );
 }
 
 export default NavBar
