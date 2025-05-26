@@ -1,12 +1,24 @@
-# React + Vite
+<h1>Crea tu landing</h1>
+Carlos A. Santa Cruz  - Pre entrega 01 <br>
+Curso en CoderHouse de React Js Flex<br>
+Comisión 88190 Del 13/05/25 al 01/07/25 Martes  19:00 a 21:00h<br>
+Profe: Laura Therisod Tutor: Andres Rubio<br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h5>Objetivos</h5>
 
-Currently, two official plugins are available:
+Este trabajo sirve para
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Comprender los conceptos básicos de React y su estructura de componentes.
 
-## Expanding the ESLint configuration
+- Crear las bases para la homepage del ecommerce en  ReactJS desarrollado durante las clases
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h5>Requisitos</h5>
+
+- Archivos para los componentes NavBar, CartWidget, e ItemListContainer, dentro de la carpeta components.
+
+- Organización correcta de los mismos: NavBar e ItemListContainer serán renderizados en App, mientras que CartWidget será renderizado en NavBar.
+
+- Uso de props para enviar un string con un mensaje hacia el componente ItemListContainer.
+
+
+
