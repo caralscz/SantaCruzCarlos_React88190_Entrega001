@@ -5,7 +5,7 @@ return (
     <div>
         <h1 className="titulo-principal" >{props.saludo1}</h1>
         <h3 >{props.saludo2}</h3>
-        <h4 className="subtitulo-inferior">{props.saludo3}</h4>
+        <h4 >{props.saludo3}</h4>
     </div>   
 )
 }

@@ -6,12 +6,14 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import CartWidget from "./CartWidget"
 import Ingresar from './Ingresar';
+import LogoShop from './LogoShop';
 
 const NavBar = () => {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">Com88190-shop </Navbar.Brand>
+        {/* <Navbar.Brand href="#">Com88190-shop </Navbar.Brand> */}
+        <LogoShop />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
