@@ -4,8 +4,6 @@ import './App.css'
 {  /* The following line can be included in your src/index.js or App.js file */ }
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import ButtonMultiuso  from './examples/ButtonMultiuso'
-import Contador from './examples/Contados'
 import ItemListContainer from './components/ItemListContainer'
 import NavBar from './components/NavBar'
 
